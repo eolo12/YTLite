@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Computer Halley — Technology Integrator dal 1985. Soluzioni IT professionali: Data Center, Cloud, Cybersecurity, Networking e Supporto Tecnico per le aziende in Valtellina e Lombardia.">
+    <meta name="keywords" content="computer halley, IT solutions, data center, cybersecurity, networking, Sondrio, Valtellina, assistenza tecnica">
+    <meta property="og:title" content="Computer Halley | Technology Integrator dal 1985">
+    <meta property="og:description" content="Soluzioni IT professionali per le aziende. Data Center, Cloud, Cybersecurity, Networking.">
+    <meta property="og:type" content="website">
+    <title>Computer Halley | Technology Integrator dal 1985</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <div class="logo-mark">CH</div>
+                <span class="logo-text">Computer <strong>Halley</strong></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#servizi" class="nav-link">Servizi</a></li>
+                <li><a href="#about" class="nav-link">Chi Siamo</a></li>
+                <li><a href="#approccio" class="nav-link">Approccio</a></li>
+                <li><a href="#contatti" class="nav-link">Contatti</a></li>
+            </ul>
+            <a href="#contatti" class="nav-cta">Richiedi Consulenza</a>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Apri menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-noise"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-badge" data-reveal>
+                <span class="badge-dot"></span>
+                Technology Integrator dal 1985
+            </div>
+
+            <h1 class="hero-title" data-reveal>
+                <span class="hero-line-1">Infrastruttura IT</span>
+                <span class="hero-line-2">che non si ferma <em>mai.</em></span>
+            </h1>
+
+            <p class="hero-subtitle" data-reveal>
+                Da oltre 40 anni progettiamo, integriamo e ottimizziamo soluzioni
+                tecnologiche per le aziende. Partner certificato dei principali
+                vendor mondiali, con sede a Caiolo, Sondrio.
+            </p>
+
+            <div class="hero-ctas" data-reveal>
+                <a href="#servizi" class="btn btn-primary">
+                    Scopri i Servizi
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#contatti" class="btn btn-ghost">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    Parla con un esperto
+                </a>
+            </div>
+
+            <div class="hero-stats" data-reveal>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <span class="stat-value" data-target="40">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <span class="stat-label">Anni di esperienza</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <span class="stat-value" data-target="500">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <span class="stat-label">Clienti aziendali</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <span class="stat-value" data-target="99">0</span><span class="stat-suffix">.9%</span>
+                    </div>
+                    <span class="stat-label">Uptime garantito</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <span class="stat-value" data-target="24">0</span><span class="stat-suffix">/7</span>
+                    </div>
+                    <span class="stat-label">Supporto tecnico</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-track">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>Scorri</span>
+        </div>
+    </section>
+
+    <!-- ===== PARTNERS TICKER ===== -->
+    <div class="ticker-wrap">
+        <div class="ticker-label">Partner Certificati</div>
+        <div class="ticker">
+            <div class="ticker-inner">
+                <span>Microsoft</span>
+                <span class="ticker-dot">·</span>
+                <span>Cisco</span>
+                <span class="ticker-dot">·</span>
+                <span>VMware</span>
+                <span class="ticker-dot">·</span>
+                <span>HPE</span>
+                <span class="ticker-dot">·</span>
+                <span>Dell Technologies</span>
+                <span class="ticker-dot">·</span>
+                <span>Fortinet</span>
+                <span class="ticker-dot">·</span>
+                <span>Veeam</span>
+                <span class="ticker-dot">·</span>
+                <span>Lenovo</span>
+                <span class="ticker-dot">·</span>
+                <span>Microsoft</span>
+                <span class="ticker-dot">·</span>
+                <span>Cisco</span>
+                <span class="ticker-dot">·</span>
+                <span>VMware</span>
+                <span class="ticker-dot">·</span>
+                <span>HPE</span>
+                <span class="ticker-dot">·</span>
+                <span>Dell Technologies</span>
+                <span class="ticker-dot">·</span>
+                <span>Fortinet</span>
+                <span class="ticker-dot">·</span>
+                <span>Veeam</span>
+                <span class="ticker-dot">·</span>
+                <span>Lenovo</span>
+                <span class="ticker-dot">·</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="servizi" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">I Nostri Servizi</span>
+                <h2 class="section-title reveal-up">Soluzioni IT complete<br>per la tua azienda</h2>
+                <p class="section-sub reveal-up">Progettiamo, implementiamo e gestiamo infrastrutture tecnologiche sicure, scalabili e performanti. Ogni soluzione è costruita su misura.</p>
+            </div>
+
+            <div class="services-bento">
+                <!-- Card grande (span 2) -->
+                <div class="svc-card svc-card--wide reveal-card" data-delay="0">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Data Center</h3>
+                            <p>Progettazione e gestione di infrastrutture data center scalabili e ad alta disponibilità. Server, storage, sistemi ridondanti e virtualizzazione per garantire continuità operativa totale.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                    <div class="svc-card__deco"></div>
+                </div>
+
+                <div class="svc-card reveal-card" data-delay="80">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Cloud &amp; Virtualizzazione</h3>
+                            <p>Migrazione e gestione di ambienti cloud ibridi e privati. Ottimizza le risorse riducendo i costi con architetture cloud su misura.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="svc-card svc-card--accent reveal-card" data-delay="160">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon svc-icon--accent">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Cybersecurity</h3>
+                            <p>Protezione avanzata dell'infrastruttura aziendale. Firewall next-gen, endpoint protection, vulnerability assessment e formazione del personale.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link svc-link--light">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="svc-card reveal-card" data-delay="80">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Networking</h3>
+                            <p>Reti cablate e wireless ad alte prestazioni. Progettazione, installazione e manutenzione di infrastrutture di rete per ogni dimensione aziendale.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="svc-card reveal-card" data-delay="160">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Backup &amp; Disaster Recovery</h3>
+                            <p>Proteggi i tuoi dati con backup automatizzati e piani di disaster recovery testati e documentati. RPO e RTO garantiti per la tua business continuity.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card grande (span 2) -->
+                <div class="svc-card svc-card--wide reveal-card" data-delay="240">
+                    <div class="svc-card__inner">
+                        <div class="svc-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div class="svc-content">
+                            <h3>Assistenza Tecnica Proattiva</h3>
+                            <p>Supporto IT con tecnici certificati, interventi on-site e remoti, monitoraggio h24 dell'infrastruttura. Contratti di manutenzione su misura per garantire la continuità del tuo business.</p>
+                        </div>
+                        <a href="#contatti" class="svc-link">
+                            Scopri di più
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                    <div class="svc-card__deco svc-card__deco--right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-left reveal-left">
+                    <span class="section-tag">Chi Siamo</span>
+                    <h2 class="section-title">Oltre 40 anni di<br>eccellenza tecnologica</h2>
+                    <p class="about-lead">Dal 1985, Computer Halley è il punto di riferimento tecnologico per le aziende della Valtellina e della Lombardia.</p>
+                    <p class="about-body">Come Technology Integrator certificato, selezioniamo e integriamo le migliori tecnologie disponibili sul mercato, garantendo soluzioni personalizzate e supporto continuo nel tempo. Il nostro approccio combina competenza tecnica, conoscenza del territorio e relazioni di lungo periodo con i clienti.</p>
+
+                    <div class="about-checklist">
+                        <div class="check-item">
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span>Personale tecnico certificato dai principali vendor globali</span>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span>Partnership strategiche con i leader del mercato IT mondiale</span>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span>Soluzioni su misura per PMI, studi professionali e grandi imprese</span>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span>Manutenzione proattiva e supporto post-vendita dedicato</span>
+                        </div>
+                    </div>
+
+                    <a href="#contatti" class="btn btn-primary">Parla con il nostro team</a>
+                </div>
+
+                <div class="about-right reveal-right">
+                    <div class="about-cards">
+                        <div class="abt-card">
+                            <div class="abt-card__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <strong>Sicurezza</strong>
+                            <span>Enterprise-grade</span>
+                        </div>
+                        <div class="abt-card">
+                            <div class="abt-card__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                            </div>
+                            <strong>Performance</strong>
+                            <span>Sempre ottimizzata</span>
+                        </div>
+                        <div class="abt-card">
+                            <div class="abt-card__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <strong>Disponibilità</strong>
+                            <span>24/7 garantita</span>
+                        </div>
+                        <div class="abt-card">
+                            <div class="abt-card__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <strong>Team</strong>
+                            <span>Completamente certificato</span>
+                        </div>
+                    </div>
+
+                    <div class="about-timeline">
+                        <div class="tl-item">
+                            <div class="tl-year">1985</div>
+                            <div class="tl-line"></div>
+                            <div class="tl-text">Fondazione a Caiolo, Sondrio — vendiamo le prime soluzioni hardware alle aziende locali</div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-year">2000</div>
+                            <div class="tl-line"></div>
+                            <div class="tl-text">Espansione nei servizi di networking, data center e infrastrutture enterprise</div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-year">2010</div>
+                            <div class="tl-line"></div>
+                            <div class="tl-text">Certificazioni cloud e lancio dei servizi di virtualizzazione e disaster recovery</div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-year">2025</div>
+                            <div class="tl-line"></div>
+                            <div class="tl-text">Leader IT in Valtellina — 500+ clienti, cybersecurity avanzata e AI-ready infrastructure</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== APPROACH ===== -->
+    <section id="approccio" class="approach">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">Il Nostro Approccio</span>
+                <h2 class="section-title reveal-up">Dalla consulenza<br>all'implementazione</h2>
+                <p class="section-sub reveal-up">Un processo collaudato in 40 anni di esperienza per garantire risultati eccellenti in ogni progetto IT.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step reveal-step" data-delay="0">
+                    <div class="step-num">01</div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                    </div>
+                    <h3>Analisi</h3>
+                    <p>Analizziamo la tua infrastruttura IT esistente, identifichiamo criticità, colli di bottiglia e opportunità di miglioramento con un approccio data-driven.</p>
+                </div>
+                <div class="step reveal-step" data-delay="100">
+                    <div class="step-num">02</div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                    <h3>Progettazione</h3>
+                    <p>Progettiamo una soluzione su misura che risponde alle tue esigenze tecnologiche, operative e di budget, con documentazione completa e dettagliata.</p>
+                </div>
+                <div class="step reveal-step" data-delay="200">
+                    <div class="step-num">03</div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Implementazione</h3>
+                    <p>Il nostro team di tecnici certificati implementa la soluzione con la massima precisione, minimizzando i tempi di downtime e garantendo la continuità operativa.</p>
+                </div>
+                <div class="step reveal-step" data-delay="300">
+                    <div class="step-num">04</div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Supporto Continuo</h3>
+                    <p>Monitoriamo e manteniamo proattivamente la tua infrastruttura 24/7, con report periodici sulle performance e piani di evoluzione tecnologica nel tempo.</p>
+                </div>
+            </div>
+
+            <div class="cta-banner reveal-up">
+                <div class="cta-banner__content">
+                    <h3>Pronto a modernizzare la tua IT?</h3>
+                    <p>Fissa una consulenza gratuita con i nostri esperti. Analizziamo la tua infrastruttura senza impegno.</p>
+                </div>
+                <a href="#contatti" class="btn btn-primary">
+                    Consulenza Gratuita
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contatti" class="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info reveal-left">
+                    <span class="section-tag">Contattaci</span>
+                    <h2 class="section-title">Parliamo della tua<br>infrastruttura IT</h2>
+                    <p class="contact-intro">Siamo a disposizione per analizzare le tue esigenze e proporre la soluzione più adatta. Compila il form o contattaci direttamente.</p>
+
+                    <div class="contact-details">
+                        <a href="https://maps.google.com/?q=Via+Valeriana+SNC+23010+Caiolo+Sondrio" target="_blank" rel="noopener" class="cdet-item">
+                            <div class="cdet-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <strong>Sede</strong>
+                                <span>Via Valeriana SNC, 23010 Caiolo (SO)</span>
+                            </div>
+                        </a>
+                        <a href="tel:0342354058" class="cdet-item">
+                            <div class="cdet-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Telefono</strong>
+                                <span>0342 354058</span>
+                            </div>
+                        </a>
+                        <a href="mailto:info@computerhalley.it" class="cdet-item">
+                            <div class="cdet-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>info@computerhalley.it</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-badge">
+                        <div class="badge-pulse">
+                            <div class="pulse-ring"></div>
+                            <div class="pulse-dot"></div>
+                        </div>
+                        <span>Rispondiamo entro 4 ore lavorative</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap reveal-right">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="nome">Nome e Cognome *</label>
+                                <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required autocomplete="name">
+                            </div>
+                            <div class="form-field">
+                                <label for="azienda">Azienda</label>
+                                <input type="text" id="azienda" name="azienda" placeholder="Nome azienda" autocomplete="organization">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" placeholder="mario@azienda.it" required autocomplete="email">
+                            </div>
+                            <div class="form-field">
+                                <label for="telefono">Telefono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+39 0342 000000" autocomplete="tel">
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="servizio">Servizio di interesse</label>
+                            <div class="select-wrap">
+                                <select id="servizio" name="servizio">
+                                    <option value="">Seleziona un servizio...</option>
+                                    <option value="data-center">Data Center</option>
+                                    <option value="cloud">Cloud &amp; Virtualizzazione</option>
+                                    <option value="security">Cybersecurity</option>
+                                    <option value="networking">Networking</option>
+                                    <option value="backup">Backup &amp; Disaster Recovery</option>
+                                    <option value="assistenza">Assistenza Tecnica</option>
+                                    <option value="altro">Altro / Consulenza Generale</option>
+                                </select>
+                                <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="messaggio">Messaggio *</label>
+                            <textarea id="messaggio" name="messaggio" rows="4" placeholder="Descrivi la tua infrastruttura attuale e le tue esigenze..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                            <span class="btn-text">Invia Richiesta</span>
+                            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            <svg class="btn-loader" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+                        </button>
+                        <p class="form-privacy">Inviando il modulo accetti la nostra <a href="#">Privacy Policy</a>. I tuoi dati non saranno condivisi con terze parti.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="nav-logo">
+                        <div class="logo-mark">CH</div>
+                        <span class="logo-text">Computer <strong>Halley</strong></span>
+                    </a>
+                    <p>Technology Integrator presente sul mercato dal 1985. Soluzioni IT professionali per le aziende della Valtellina e della Lombardia.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn" class="social-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Servizi</h4>
+                    <ul>
+                        <li><a href="#servizi">Data Center</a></li>
+                        <li><a href="#servizi">Cloud &amp; Virtualizzazione</a></li>
+                        <li><a href="#servizi">Cybersecurity</a></li>
+                        <li><a href="#servizi">Networking</a></li>
+                        <li><a href="#servizi">Backup &amp; Recovery</a></li>
+                        <li><a href="#servizi">Assistenza Tecnica</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Azienda</h4>
+                    <ul>
+                        <li><a href="#about">Chi Siamo</a></li>
+                        <li><a href="#approccio">Il Nostro Approccio</a></li>
+                        <li><a href="#contatti">Contattaci</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col--contact">
+                    <h4>Contatti</h4>
+                    <address>
+                        <p>Via Valeriana SNC<br>23010 Caiolo (SO)</p>
+                        <p><a href="tel:0342354058">0342 354058</a></p>
+                        <p><a href="mailto:info@computerhalley.it">info@computerhalley.it</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Computer Halley S.r.l. — Tutti i diritti riservati — P.IVA IT00000000000</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>·</span>
+                    <a href="#">Cookie Policy</a>
+                    <span>·</span>
+                    <a href="#">Note Legali</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
